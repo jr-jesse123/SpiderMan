@@ -1,8 +1,8 @@
 .cta-1{
     display: flex;
     align-items: center;
-    height: 100vh;
-    width: 100vg;
+    height: 100%;
+    width: 100%;
     background-color: var(--preto);
 }
 
@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    width: 100%;
     background-image: url('../imagens/bg-callout.jpg');
     background-position:  center center;
     background-size: cover;
