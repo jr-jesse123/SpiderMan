@@ -1,0 +1,26 @@
+.footer{
+ 
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 7.5rem 1rem;
+    text-align: center;
+}
+
+.footer > .icons-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.footer > .icons-container > .icon-badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--vermelho);
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+
+    border-radius: 100%;
+    
+}

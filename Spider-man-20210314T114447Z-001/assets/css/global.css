@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;700&display=swap');
+/*  CORES
+VERMELHOR | #e63d3d
+vermelhor:hover | #c42f2f
+branco | #fff
+preto | #121212
+preto::hover | #23272b
+*/
+
+:root {
+    --vermelho : #e63d3d;
+    --vermelho-hover : #c42f2f ;
+    --branco : #fff;
+    --preto : #121212;
+    --preto-hover: #23272b
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+button {
+    border: none;
+    color: (var(--branco));
+    font-weight: 700;
+    
+    padding: 1.5rem 2.5rem;
+    transform: skew(-10deg,0);
+
+}
+
+
+button.red{
+    background-color: var(--vermelho);
+}
+
+button.black{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+
+button.white{
+    background-color: var(--branco);
+    
+    color: var(--preto);
+}

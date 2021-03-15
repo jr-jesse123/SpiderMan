@@ -1,0 +1,25 @@
+.cta-1{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vg;
+    background-color: var(--preto);
+}
+
+.cta-1 > .spider-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-image: url('../imagens/bg-callout.jpg');
+    background-position:  center center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.cta-1 > .spider-background h2 {
+    font-size: 3.5rem;
+    color: var(--branco);
+    text-align: center;
+}

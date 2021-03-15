@@ -1,0 +1,73 @@
+    
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        justify-content:  center;
+
+        padding: 7.5rem 0rem;
+        background-color:  var(--preto);
+    }
+
+
+
+    .skills > span {
+        color: var(--vermelho);
+        text-transform: uppercase;   
+        font-weight: 700;
+    }
+
+    .skills > h3 {
+        font-size:  3rem;
+        color: var(--branco);
+        margin-bottom: 2rem;
+    }
+
+
+.skill > .skills-container{
+
+}
+
+.skills > .skills-container > .skill-item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+    margin-bottom: 3rem;
+
+}
+.skills> .skills-container .skill-badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    background-color: var(--vermelho);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.skills > .skills-container > .skill-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* 
+skill-badge
+fas fa-spider
+
+     */

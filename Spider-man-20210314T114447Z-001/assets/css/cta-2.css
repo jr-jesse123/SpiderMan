@@ -1,0 +1,17 @@
+.cta-2{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 7.5rem 1rem;
+}
+
+
+.cta-2 > h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-2 > .buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

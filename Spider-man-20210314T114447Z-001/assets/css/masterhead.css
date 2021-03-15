@@ -1,0 +1,26 @@
+.masterhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    background-color: #121212;
+    width:  100vw;
+    height: 100vh;
+    background-image: url('../imagens/bg-masthead.png');
+    background-position: center left;
+    background-size: cover;
+    color: var(--branco)
+}
+
+
+.masterhead > h1 {
+    font-size: 4rem;
+}
+
+.masterhead > h2 {
+    font-size:  1.5rem;
+    font-weight: 300;
+    text-align: center;       
+    margin-bottom: 2rem;
+}
